@@ -9,7 +9,7 @@ const Layout = ({ children }: { children: ReactElement }) => {
         <div>
           <Header />
         </div>
-        <div className="w-[60vw] grow">{children}</div>
+        <div className="w-[90vw] xl:w-[60vw] grow">{children}</div>
       </div>
       <Footer />
     </main>

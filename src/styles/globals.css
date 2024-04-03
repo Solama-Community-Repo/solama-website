@@ -9,14 +9,25 @@
     font-family: "Grandstander", Sans-serif;
     color: white;
     font-size: 20px;
+    background-color: #12151d;
   }
 
   h2 {
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 700;
   }
 
   h4 {
-    font-size: 25px;
+    font-size: 20px;
+  }
+
+  @media (min-width: 1200px) {
+    h2 {
+      font-size: 35px;
+    }
+
+    h4 {
+      font-size: 25px;
+    }
   }
 }
