@@ -4,7 +4,7 @@ import Link from "next/link";
 const Header = () => {
   return (
     <div className="flex justify-center py-4 xl:py-7">
-      <div className="flex w-[90vw] xl:w-[60vw] items-center justify-between xl:justify-normal">
+      <div className="flex w-[90vw] items-center justify-between xl:w-[60vw] xl:justify-normal">
         <div className="flex items-center">
           <Image src="/solama_logo.png" alt="Solama Logo" height={67} width={67} />
           <Image src="/solama_wordmark.png" alt="Solama Wordmark" height={50} width={150} />
@@ -36,11 +36,11 @@ const Header = () => {
             <a href="https://solamatrendz.com/">Solama Merch</a>
           </div>
         </div>
-		<div className="xl:hidden">
-			<div className="w-[30px] h-[5px] bg-white mb-1"></div>
-			<div className="w-[30px] h-[5px] bg-white mb-1"></div>
-			<div className="w-[30px] h-[5px] bg-white"></div>
-		</div>
+        <div className="xl:hidden">
+          <div className="mb-1 h-[5px] w-[30px] bg-white"></div>
+          <div className="mb-1 h-[5px] w-[30px] bg-white"></div>
+          <div className="h-[5px] w-[30px] bg-white"></div>
+        </div>
       </div>
     </div>
   );

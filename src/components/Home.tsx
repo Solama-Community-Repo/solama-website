@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div>
       <section>
-        <div className="mt-20 flex flex-col xl:flex-row items-center justify-between">
+        <div className="mt-20 flex flex-col items-center justify-between xl:flex-row">
           <div>
             <h2 className="mb-3 pl-2">Welcome To</h2>
             <Image src="/solama_wordmark_lg.png" alt="Solama Wordmark" height={100} width={500} />
@@ -12,9 +12,9 @@ const Home = () => {
             <div className="mt-3 flex justify-between xl:w-[80%]">
               <button
                 onClick={() => window.open("https://jup.ag/swap/SOL-SOLAMA", "_blank")}
-                className="w-[145px] xl:w-[205px] shadow-green hover:border-hover-primary group rounded-full border-4 border-solid border-black bg-white py-1 transition-transform duration-300 hover:scale-110"
+                className="group w-[145px] rounded-full border-4 border-solid border-black bg-white py-1 shadow-green transition-transform duration-300 hover:scale-110 hover:border-hover-primary xl:w-[205px]"
               >
-                <span className="text-primary group-hover:text-hover-primary text-[15px] xl:text-[22px] font-bold">Buy Now</span>
+                <span className="text-[15px] font-bold text-primary group-hover:text-hover-primary xl:text-[22px]">Buy Now</span>
               </button>
               <button
                 onClick={() =>
@@ -23,13 +23,13 @@ const Home = () => {
                     "_blank",
                   )
                 }
-                className="w-[145px] xl:w-[205px] shadow-purple hover:border-hover-secondary group rounded-full border-4 border-solid border-black bg-white py-1 transition-transform duration-300 hover:scale-110"
+                className="group w-[145px] rounded-full border-4 border-solid border-black bg-white py-1 shadow-purple transition-transform duration-300 hover:scale-110 hover:border-hover-secondary xl:w-[205px]"
               >
-                <span className="text-primary group-hover:text-hover-secondary text-[15px] xl:text-[22px] font-bold">Charts</span>
+                <span className="text-[15px] font-bold text-primary group-hover:text-hover-secondary xl:text-[22px]">Charts</span>
               </button>
             </div>
           </div>
-          <div className="animate-bounce mt-12 xl:mt-0">
+          <div className="mt-12 animate-bounce xl:mt-0">
             <Image src="/solama_logo.png" alt="Solama Logo" height={370} width={370} />
           </div>
         </div>

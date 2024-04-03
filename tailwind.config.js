@@ -22,6 +22,12 @@ module.exports = {
           "50%": { "animation-timing-function": "cubic-bezier(.4,.4,.7,.7)" },
         },
       },
+      backgroundImage: {
+        "bg-image": "url('/background_image.jpg')",
+      },
+      backgroundPosition: {
+        "top-center": "top center",
+      },
     },
   },
   plugins: [],
