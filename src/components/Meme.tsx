@@ -11,7 +11,7 @@ const Meme = () => {
         <div className="animate-slide mt-10 inline-block group-hover:[animation-play-state:paused]">
           {images.map((img) => (
             <div key={img.alt} className="mx-10 inline-block">
-              <Image src={img.src} alt={img.alt} height={300} width={300} />
+              <Image src={img.src} alt={img.alt} height={300} width={300} priority />
             </div>
           ))}
         </div>
