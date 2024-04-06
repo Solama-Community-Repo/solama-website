@@ -16,12 +16,22 @@ module.exports = {
       },
       animation: {
         bounce: "bounce 2s ease-in-out infinite",
-		slide: "slide 35s linear infinite"
+		slide: "slide 35s linear infinite",
+		slidein: "slidein 1s ease-in-out 1",
+		slideout: "slideout 1s ease-in-out 1"
       },
       keyframes: {
 		slide: {
 			'0%': { transform: 'translateX(0)' },
 			'100%': { transform: 'translateX(-400%)'}
+		},
+		slidein: {
+			'0%': { transform: 'translateX(-100%)' },
+			'100%': { transform: 'translateX(0)'}
+		},
+		slideout: {
+			'0%': { transform: 'translateX(0)' },
+			'100%': { transform: 'translateX(-100%)'}
 		},
         bounce: {
           "0%, 100%": { transform: "translateY(-2%)", "animation-timing-function": "cubic-bezier(.4,.4,.7,.7)" },

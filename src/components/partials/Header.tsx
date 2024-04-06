@@ -2,8 +2,15 @@ import Image from "next/image";
 import Link from "next/link";
 
 const Header = () => {
+	const openMobileNav = () => {
+		document.getElementById('mobile-nav').classList.remove('hidden');
+		document.getElementById('mobile-nav').classList.add('animate-slidein');
+		setTimeout(() => {
+			document.getElementById('mobile-nav').classList.remove('animate-slidein');
+		}, 1000);
+	}
   return (
-    <div className="flex justify-center py-4 xl:py-7">
+    <div id="header" className="flex justify-center py-4 xl:py-7">
       <div className="flex w-[90vw] items-center justify-between xl:w-[60vw] xl:justify-normal">
         <div className="flex items-center">
           <div className="relative h-[67px] w-[67px]">
@@ -40,10 +47,10 @@ const Header = () => {
             <a href="https://solamatrendz.com/">Solama Merch</a>
           </div>
         </div>
-        <div className="xl:hidden">
-          <div className="mb-1 h-[5px] w-[30px] bg-white"></div>
-          <div className="mb-1 h-[5px] w-[30px] bg-white"></div>
-          <div className="h-[5px] w-[30px] bg-white"></div>
+        <div onClick={openMobileNav} className="xl:hidden group">
+          <div className="mb-1 h-[5px] w-[30px] bg-white group-hover:bg-secondary transition-colors duration-300"></div>
+          <div className="mb-1 h-[5px] w-[30px] bg-white group-hover:bg-secondary transition-colors duration-300"></div>
+          <div className="h-[5px] w-[30px] bg-white group-hover:bg-secondary transition-colors duration-300"></div>
         </div>
       </div>
     </div>
