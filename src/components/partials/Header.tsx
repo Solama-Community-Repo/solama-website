@@ -2,13 +2,26 @@ import Image from "next/image";
 import Link from "next/link";
 
 const Header = () => {
-	const openMobileNav = () => {
-		document.getElementById('mobile-nav').classList.remove('hidden');
-		document.getElementById('mobile-nav').classList.add('animate-slidein');
-		setTimeout(() => {
-			document.getElementById('mobile-nav').classList.remove('animate-slidein');
-		}, 1000);
-	}
+  const openMobileNav = () => {
+    document.getElementById("mobile-nav").classList.remove("hidden");
+    document.getElementById("mobile-nav").classList.add("animate-slidein");
+    setTimeout(() => {
+      document.getElementById("mobile-nav").classList.remove("animate-slidein");
+    }, 1000);
+  };
+
+  const scrollToSection = (section) => {
+    const mobileNav = document.getElementById("mobile-nav");
+    if (!mobileNav.classList.contains("hidden")) {
+      mobileNav.classList.add("animate-slideout");
+
+      setTimeout(() => {
+        mobileNav.classList.remove("animate-slideout");
+        mobileNav.classList.add("hidden");
+      }, 1000);
+    }
+    document.getElementById(section).scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <div id="header" className="flex justify-center py-4 xl:py-7">
       <div className="flex w-[90vw] items-center justify-between xl:w-[60vw]">
@@ -21,14 +34,29 @@ const Header = () => {
           </div>
         </div>
         <div className="hidden xl:flex xl:flex-wrap 2xl:flex-nowrap">
-          <div className="mx-2 whitespace-nowrap rounded-md px-1 py-[2px] transition-colors duration-300 hover:bg-white hover:text-black xl:text-[18px]">
-            <Link href="/">Home</Link>
+          <div
+            onClick={() => scrollToSection("header")}
+            className="mx-2 whitespace-nowrap rounded-md px-1 py-[2px] transition-colors duration-300 hover:bg-white hover:text-black xl:text-[18px]"
+          >
+            <span>Home</span>
           </div>
-          <div className="mx-2 whitespace-nowrap rounded-md px-1 py-[2px] transition-colors duration-300 hover:bg-white hover:text-black xl:text-[18px]">
-            <Link href="/#about">About</Link>
+          <div
+            onClick={() => scrollToSection("about")}
+            className="mx-2 whitespace-nowrap rounded-md px-1 py-[2px] transition-colors duration-300 hover:bg-white hover:text-black xl:text-[18px]"
+          >
+            <span>About</span>
           </div>
-          <div className="mx-2 whitespace-nowrap rounded-md px-1 py-[2px] transition-colors duration-300 hover:bg-white hover:text-black xl:text-[18px]">
-            <Link href="/#tokenomics">Tokenomics</Link>
+          <div
+            onClick={() => scrollToSection("tokenomics")}
+            className="mx-2 whitespace-nowrap rounded-md px-1 py-[2px] transition-colors duration-300 hover:bg-white hover:text-black xl:text-[18px]"
+          >
+            <span>Tokenomics</span>
+          </div>
+		  <div
+            onClick={() => scrollToSection("swap")}
+            className="mx-2 whitespace-nowrap rounded-md px-1 py-[2px] transition-colors duration-300 hover:bg-white hover:text-black xl:text-[18px]"
+          >
+            <span>Swap</span>
           </div>
           <div className="mx-2 whitespace-nowrap rounded-md px-1 py-[2px] transition-colors duration-300 hover:bg-white hover:text-black xl:text-[18px]">
             <a href="https://github.com/Tech-Audit/Smart-Contract-Audits/blob/main/TECHAUDIT_SOLAMA.pdf" target="_blank">
@@ -41,16 +69,16 @@ const Header = () => {
             </a>
           </div>
           <div className="mx-2 whitespace-nowrap rounded-md px-1 py-[2px] transition-colors duration-300 hover:bg-white hover:text-black xl:text-[18px]">
-            <a href="https://game.solama.vip/">Play The Game</a>
+            <a href="https://game.solama.vip/">Game</a>
           </div>
           <div className="mx-2 whitespace-nowrap rounded-md px-1 py-[2px] transition-colors duration-300 hover:bg-white hover:text-black xl:text-[18px]">
-            <a href="https://solamatrendz.com/">Solama Merch</a>
+            <a href="https://solamatrendz.com/">Merch</a>
           </div>
         </div>
-        <div onClick={openMobileNav} className="xl:hidden group">
-          <div className="mb-1 h-[5px] w-[30px] bg-white group-hover:bg-secondary transition-colors duration-300"></div>
-          <div className="mb-1 h-[5px] w-[30px] bg-white group-hover:bg-secondary transition-colors duration-300"></div>
-          <div className="h-[5px] w-[30px] bg-white group-hover:bg-secondary transition-colors duration-300"></div>
+        <div onClick={openMobileNav} className="group xl:hidden">
+          <div className="mb-1 h-[5px] w-[30px] bg-white transition-colors duration-300 group-hover:bg-secondary"></div>
+          <div className="mb-1 h-[5px] w-[30px] bg-white transition-colors duration-300 group-hover:bg-secondary"></div>
+          <div className="h-[5px] w-[30px] bg-white transition-colors duration-300 group-hover:bg-secondary"></div>
         </div>
       </div>
     </div>

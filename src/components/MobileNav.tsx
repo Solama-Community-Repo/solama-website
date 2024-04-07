@@ -45,6 +45,12 @@ const MobileNav = () => {
         >
           <span>Tokenomics</span>
         </div>
+		<div
+            onClick={() => scrollToSection("swap")}
+            className="mx-2 whitespace-nowrap rounded-md px-1 py-[2px] transition-colors duration-300 hover:bg-white hover:text-black xl:text-[18px]"
+          >
+            <span>Swap</span>
+          </div>
         <div className="mx-2 whitespace-nowrap rounded-md px-1 py-[2px] transition-colors duration-300 hover:bg-white hover:text-black xl:text-[18px]">
           <a href="https://github.com/Tech-Audit/Smart-Contract-Audits/blob/main/TECHAUDIT_SOLAMA.pdf" target="_blank">
             Tech Audit
@@ -56,10 +62,10 @@ const MobileNav = () => {
           </a>
         </div>
         <div className="mx-2 whitespace-nowrap rounded-md px-1 py-[2px] transition-colors duration-300 hover:bg-white hover:text-black xl:text-[18px]">
-          <a href="https://game.solama.vip/">Play The Game</a>
+          <a href="https://game.solama.vip/">Game</a>
         </div>
         <div className="mx-2 whitespace-nowrap rounded-md px-1 py-[2px] transition-colors duration-300 hover:bg-white hover:text-black xl:text-[18px]">
-          <a href="https://solamatrendz.com/">Solama Merch</a>
+          <a href="https://solamatrendz.com/">Merch</a>
         </div>
         <div onClick={closeMobileNav} className="absolute right-4 top-0 border-[1px] border-solid border-secondary bg-white">
           <MdClose fill="#000" size={28} />

@@ -15,7 +15,7 @@ const Swap = () => {
     });
   }, []);
   return (
-    <div className="mt-32 flex flex-col justify-between xl:flex-row">
+    <section id="swap" className="mt-32 flex flex-col justify-between xl:flex-row">
       <div className="flex flex-col justify-between xl:py-6 xl:w-2/4 text-center xl:text-start">
         <div className="mb-6">
           <h2 className="mb-2">Swap With Jupiter</h2>
@@ -28,7 +28,7 @@ const Swap = () => {
       <div className="mt-6 xl:mt-0 xl:w-5/12">
         <div id="integrated-terminal"></div>
       </div>
-    </div>
+    </section>
   );
 };
 
