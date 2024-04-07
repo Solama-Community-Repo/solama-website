@@ -3,7 +3,8 @@ import Image from "next/image";
 const About = () => {
   return (
     <section id="about" className="mt-32">
-      <div className="rounded-xl border-2 border-solid border-secondary">
+      <div className="relative rounded-xl border-2 border-solid border-secondary shadow-glow">
+        <div className="absolute left-0 top-0 -z-10 h-full w-full rounded-xl bg-primary opacity-45" />
         <div className="flex flex-col items-center py-6 text-center">
           <div className="relative mx-auto h-[35px] w-[315px] xl:h-[59px] xl:w-[560px] ">
             <Image src="/solama_about.png" alt="Solama About" layout="fill" />

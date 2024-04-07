@@ -12,13 +12,13 @@ const Home = () => {
   return (
     <div>
       <Welcome />
-      <Trendz />
-      <Meme />
-      <Game />
       <About />
       <Tokenomics />
       <Swap />
       <Buy />
+	  <Meme />
+      <Trendz />
+      <Game />
     </div>
   );
 };
