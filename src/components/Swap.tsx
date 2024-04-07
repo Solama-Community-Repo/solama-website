@@ -25,7 +25,7 @@ const Swap = () => {
         </div>
         <TickerInfo />
       </div>
-      <div className="mt-6 xl:mt-0">
+      <div className="mt-6 xl:mt-0 xl:w-5/12">
         <div id="integrated-terminal"></div>
       </div>
     </div>
