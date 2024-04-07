@@ -5,6 +5,7 @@ import Meme from "./Meme";
 import Tokenomics from "./Tokenomics";
 import Trendz from "./Trendz";
 import Welcome from "./Welcome";
+import Swap from "./Swap";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Game />
       <About />
       <Tokenomics />
+      <Swap />
       <Buy />
     </div>
   );

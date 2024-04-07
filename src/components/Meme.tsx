@@ -3,8 +3,8 @@ import { images } from "../utils/constants/constants";
 
 const Meme = () => {
   return (
-    <section id="meme">
-      <div className="relative mt-32 h-[35px] w-[335px] mx-auto xl:h-[59px] xl:w-[560px] ">
+    <section id="meme" className="mt-32">
+      <div className="relative h-[35px] w-[335px] mx-auto xl:h-[59px] xl:w-[560px] ">
         <Image src="/solama_meme.png" alt="Solama Meme" layout="fill" />
       </div>
       <div className="group overflow-hidden whitespace-nowrap">

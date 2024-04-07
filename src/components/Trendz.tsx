@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const Trendz = () => {
   return (
-    <section id="trendz">
-      <div className="relative mt-32 h-[35px] w-[335px] mx-auto xl:h-[59px] xl:w-[560px] ">
+    <section id="trendz" className="mt-32">
+      <div className="relative h-[35px] w-[335px] mx-auto xl:h-[59px] xl:w-[560px] ">
         <Image src="/solama_trendz.png" alt="Solama Trendz" layout="fill" />
       </div>
       <div className="mt-5 flex flex-col xl:flex-row">

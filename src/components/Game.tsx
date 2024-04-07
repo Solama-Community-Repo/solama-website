@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const Game = () => {
   return (
-    <section id="game">
-      <div className="relative mt-32 h-[35px] w-[335px] mx-auto xl:h-[59px] xl:w-[560px] ">
+    <section id="game" className="mt-32">
+      <div className="relative h-[35px] w-[335px] mx-auto xl:h-[59px] xl:w-[560px] ">
         <Image src="/solama_game.png" alt="Solama Game" layout="fill" />
       </div>
       <div className="mt-5 flex flex-col xl:flex-row">

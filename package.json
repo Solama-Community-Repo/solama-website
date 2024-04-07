@@ -10,6 +10,9 @@
   },
   "dependencies": {
     "@civic/solana-gateway-react": "^0.16.11",
+    "@jup-ag/common": "^6.0.0-beta.8",
+    "@jup-ag/react-hook": "^6.0.0-beta.8",
+    "@jup-ag/wallet-adapter": "^0.1.5",
     "@metaplex-foundation/js": "^0.17.5",
     "@metaplex-foundation/mpl-candy-guard": "^0.2.0",
     "@solana/spl-token": "^0.3.6",
@@ -18,6 +21,7 @@
     "@solana/wallet-adapter-react-ui": "^0.9.18",
     "@solana/wallet-adapter-wallets": "^0.19.5",
     "@solana/web3.js": "^1.66.2",
+    "jotai": "^2.7.2",
     "next": "12.3.1",
     "react": "18.2.0",
     "react-countdown": "^2.3.2",

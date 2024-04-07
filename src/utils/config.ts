@@ -1,8 +1,5 @@
-import { WalletAdapterNetwork } from "@solana/wallet-adapter-base";
-import { clusterApiUrl } from "@solana/web3.js";
+import { WalletAdapterNetwork } from '@solana/wallet-adapter-base';
 
-export const network = (process.env.NEXT_PUBLIC_SOLANA_NETWORK ||
-  WalletAdapterNetwork.Devnet) as WalletAdapterNetwork;
+export const network = WalletAdapterNetwork.Mainnet;
 
-export const rpcHost =
-  process.env.NEXT_PUBLIC_RPC_HOST || clusterApiUrl(network);
+export const rpcHost = "https://api.mainnet-beta.solana.com";
