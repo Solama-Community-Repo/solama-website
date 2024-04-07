@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import TickerInfo from "./TickerInfo";
 
 const Swap = () => {
   useEffect(() => {
@@ -15,11 +16,14 @@ const Swap = () => {
   }, []);
   return (
     <div className="mt-32 flex flex-col justify-between xl:flex-row">
-      <div className="flex flex-col justify-center text-center xl:text-start">
-        <h2>Swap With Jupiter</h2>
-        <span className="mt-2 xl:w-3/4 xl:mt-0">
-          Jupiter is a DEX aggregator that will find you the best swap price from major DEX's on Solana.
-        </span>
+      <div className="flex flex-col justify-between xl:py-6 xl:w-2/4 text-center xl:text-start">
+        <div className="mb-6">
+          <h2 className="mb-2">Swap With Jupiter</h2>
+          <span className="xl:mt-0 xl:w-3/4">
+            Jupiter is a DEX aggregator that will find you the best swap price across major DEX's on Solana.
+          </span>
+        </div>
+        <TickerInfo />
       </div>
       <div className="mt-6 xl:mt-0">
         <div id="integrated-terminal"></div>
