@@ -11,7 +11,7 @@ const Header = () => {
 	}
   return (
     <div id="header" className="flex justify-center py-4 xl:py-7">
-      <div className="flex w-[90vw] items-center justify-between xl:w-[60vw] xl:justify-normal">
+      <div className="flex w-[90vw] items-center justify-between xl:w-[60vw]">
         <div className="flex items-center">
           <div className="relative h-[67px] w-[67px]">
             <Image src="/solama_logo.png" alt="Solama Logo" layout="fill" />
