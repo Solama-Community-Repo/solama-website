@@ -6,7 +6,7 @@ export default function Document() {
       <Head>
         <meta
           name="description"
-          content="Solama the Official 'Unofficial' Solana Mascot"
+          content="SOLAMA, the rising star in the meme coin universe on the SOLANA blockchain. Much like Shiba Inu on Ethereum, SOLAMA brings a playful twist with its lama-themed charm. Embrace the whimsical world of SOLAMA, where crypto meets humor, and join the journey toward the next big meme coin sensation on SOLANA."
           key="desc"
         />
         <link rel="icon" href="/solama_logo.png" />
@@ -15,11 +15,11 @@ export default function Document() {
         <meta name="twitter:image" content=" https://www.solama.com/solama_logo.png" />
         <meta
           property="og:description"
-          content="Solama the Official 'Unofficial' Solana Mascot"
+          content="SOLAMA, the rising star in the meme coin universe on the SOLANA blockchain. Much like Shiba Inu on Ethereum, SOLAMA brings a playful twist with its lama-themed charm. Embrace the whimsical world of SOLAMA, where crypto meets humor, and join the journey toward the next big meme coin sensation on SOLANA."
         />
         <meta
           name="twitter:description"
-          content="Solama the Official 'Unofficial' Solana Mascot"
+          content="SOLAMA, the rising star in the meme coin universe on the SOLANA blockchain. Much like Shiba Inu on Ethereum, SOLAMA brings a playful twist with its lama-themed charm. Embrace the whimsical world of SOLAMA, where crypto meets humor, and join the journey toward the next big meme coin sensation on SOLANA."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <script src="https://terminal.jup.ag/main-v2.js" data-preload />
