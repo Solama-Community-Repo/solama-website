@@ -21,7 +21,6 @@ export default function Document() {
           name="twitter:description"
           content="SOLAMA, the rising star in the meme coin universe on the SOLANA blockchain. Much like Shiba Inu on Ethereum, SOLAMA brings a playful twist with its lama-themed charm. Embrace the whimsical world of SOLAMA, where crypto meets humor, and join the journey toward the next big meme coin sensation on SOLANA."
         />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <script src="https://terminal.jup.ag/main-v2.js" data-preload />
         <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
       </Head>
