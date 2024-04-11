@@ -68,11 +68,11 @@ const Header = () => {
               Black Paper
             </a>
           </div>
-          <div className="mx-2 whitespace-nowrap rounded-md px-1 py-[2px] transition-colors duration-300 hover:bg-white hover:text-black xl:text-[18px]">
-            <a href="https://game.solama.vip/">Game</a>
+		  <div className="mx-2 whitespace-nowrap rounded-md px-1 py-[2px] transition-colors duration-300 hover:bg-white hover:text-black xl:text-[18px]">
+            <a href="https://solamatrendz.com/">Merch</a>
           </div>
           <div className="mx-2 whitespace-nowrap rounded-md px-1 py-[2px] transition-colors duration-300 hover:bg-white hover:text-black xl:text-[18px]">
-            <a href="https://solamatrendz.com/">Merch</a>
+            <a href="https://game.solama.vip/">Game</a>
           </div>
         </div>
         <div onClick={openMobileNav} className="group xl:hidden">
