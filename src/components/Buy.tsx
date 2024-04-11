@@ -40,7 +40,7 @@ const Buy = () => {
         <div className="absolute left-0 top-0 -z-10 h-full w-full rounded-xl bg-primary opacity-45" />
         <div className="flex flex-col items-center gap-4 xl:flex-row xl:gap-0">
           <div className="flex w-full justify-center">
-            <Image src="/raydium.png" alt="Phantom Wallet Logo" width={215} height={128} />
+            <Image src="/raydium.png" alt="Phantom Wallet Logo" width={215} height={140} />
           </div>
           <div className="flex flex-col px-2 text-center">
             <h2 className="mb-3 xl:mb-0">Go to Raydium, Jupiter..</h2>

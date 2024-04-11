@@ -3,11 +3,11 @@ import Image from "next/image";
 const Game = () => {
   return (
     <section id="game" className="mt-32">
-      <div className="relative h-[35px] w-[335px] mx-auto xl:h-[59px] xl:w-[560px] ">
+      <div className="relative mx-auto h-[35px] w-[335px] xl:h-[59px] xl:w-[560px] ">
         <Image src="/solama_game.png" alt="Solama Game" layout="fill" />
       </div>
       <div className="mt-5 flex flex-col xl:flex-row">
-        <div className="flex flex-col items-center text-center xl:flex-row">
+        <div className="flex flex-col justify-between w-full items-center text-center xl:flex-row">
           <div className="xl:w-2/3 xl:p-5">
             <button
               onClick={() => window.open("https://game.solama.vip/", "_self")}
@@ -20,7 +20,7 @@ const Game = () => {
               experience.
             </div>
           </div>
-          <div className="xl:flex xl:w-1/3 xl:justify-end">
+          <div className="xl:flex xl:justify-end">
             <div className="relative mt-5 h-[380px] w-[285px] border-2 border-solid border-secondary xl:h-[442px] xl:w-[333px]">
               <Image src="/game_preview.jpg" alt="Solama Game Preview" layout="fill" />
             </div>

@@ -24,13 +24,13 @@ const Header = () => {
   };
   return (
     <div id="header" className="flex justify-center py-4 xl:py-7">
-      <div className="flex w-[90vw] items-center justify-between xl:w-[60vw]">
+      <div className="flex w-[90vw] items-center justify-between xl:w-[80vw] 2xl:w-[60vw]">
         <div className="flex items-center">
           <div className="relative h-[67px] w-[67px]">
             <Image src="/solama_logo.png" alt="Solama Logo" layout="fill" />
           </div>
-          <div className="relative h-[50px] w-[150px]">
-            <Image src="/solama_wordmark.png" alt="Solama Wordmark" layout="fill" />
+          <div className="relative h-[29px] w-[141px] ml-3">
+            <Image src="/solama_wordmark_lg.png" alt="Solama Wordmark" layout="fill" />
           </div>
         </div>
         <div className="hidden xl:flex xl:flex-wrap 2xl:flex-nowrap">

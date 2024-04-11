@@ -13,21 +13,21 @@ const Footer = () => {
                 <Image src="/solama_logo.png" alt="Solama Logo" layout="fill" />
               </div>
               <div className="flex flex-col">
-                <div className="flex gap-6">
-                  <div className="rounded-md border-2 border-solid border-secondary bg-white p-[4px]">
-                    <FaTelegram fill="#000" className="xl:h-8 xl:w-8" />
+                <div className="flex gap-4">
+                  <div className="rounded-md border-4 border-solid border-secondary bg-white p-[6px]">
+                    <FaTelegram fill="#000" className="xl:h-6 xl:w-6" />
                   </div>
-                  <div className="rounded-md border-2 border-solid border-secondary bg-white p-[4px]">
-                    <FaTwitter fill="#000" className="xl:h-8 xl:w-8" />
+                  <div className="rounded-md border-4 border-solid border-secondary bg-white p-[6px]">
+                    <FaTwitter fill="#000" className="xl:h-6 xl:w-6" />
                   </div>
-                  <div className="rounded-md border-2 border-solid border-secondary bg-white p-[4px]">
-                    <FaYoutube fill="#000" className="xl:h-8 xl:w-8" />
+                  <div className="rounded-md border-4 border-solid border-secondary bg-white p-[6px]">
+                    <FaYoutube fill="#000" className="xl:h-6 xl:w-6" />
                   </div>
-                  <div className="rounded-md border-2 border-solid border-secondary bg-white p-[4px]">
-                    <FaTiktok fill="#000" className="xl:h-8 xl:w-8" />
+                  <div className="rounded-md border-4 border-solid border-secondary bg-white p-[6px]">
+                    <FaTiktok fill="#000" className="xl:h-6 xl:w-6" />
                   </div>
-                  <div className="rounded-md border-2 border-solid border-secondary bg-white p-[4px]">
-                    <FaInstagram fill="#000" className="xl:h-8 xl:w-8" />
+                  <div className="rounded-md border-4 border-solid border-secondary bg-white p-[6px]">
+                    <FaInstagram fill="#000" className="xl:h-6 xl:w-6" />
                   </div>
                 </div>
                 <a
