@@ -4,7 +4,7 @@ import { partners } from "../utils/constants/constants";
 const Partners = () => {
   return (
     <section id="partners" className="mt-32">
-      <h2 className="text-center">Partners</h2>
+      <h2 className="text-center">PARTNERS</h2>
         <div className="mt-8 grid grid-cols-3 xl:grid-cols-none xl:grid-flow-col place-items-center gap-y-8">
           {partners.map((partner) => (
             <a key={partner.alt} href={partner.link}>
