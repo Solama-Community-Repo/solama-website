@@ -6,7 +6,8 @@ import Tokenomics from "./Tokenomics";
 import Trendz from "./Trendz";
 import Welcome from "./Welcome";
 import Swap from "./Swap";
-import TickerInfo from "./TickerInfo";
+import Partners from "./Partners";
+
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Welcome />
       <About />
       <Tokenomics />
+	  <Partners />
       <Swap />
       <Buy />
 	  <Meme />

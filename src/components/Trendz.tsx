@@ -20,7 +20,7 @@ const Trendz = () => {
             </div>
           </div>
           <div className="xl:flex xl:justify-end">
-            <div className="relative mt-5 h-[380px] w-[285px] border-2 border-solid border-secondary xl:h-[442px] xl:w-[333px]">
+            <div className="relative mt-5 h-[380px] w-[285px] border-4 border-solid border-secondary xl:h-[442px] xl:w-[333px]">
               <Image src="/trendz_preview.jpg" alt="Trendz Website Preview" layout="fill" />
             </div>
           </div>

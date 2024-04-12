@@ -21,7 +21,7 @@ const Game = () => {
             </div>
           </div>
           <div className="xl:flex xl:justify-end">
-            <div className="relative mt-5 h-[380px] w-[285px] border-2 border-solid border-secondary xl:h-[442px] xl:w-[333px]">
+            <div className="relative mt-5 h-[380px] w-[285px] border-4 border-solid border-secondary xl:h-[442px] xl:w-[333px]">
               <Image src="/game_preview.jpg" alt="Solama Game Preview" layout="fill" />
             </div>
           </div>
