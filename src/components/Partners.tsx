@@ -7,7 +7,7 @@ const Partners = () => {
       <h2 className="text-center">PARTNERS</h2>
         <div className="mt-8 grid grid-cols-3 xl:grid-cols-none xl:grid-flow-col place-items-center gap-y-8">
           {partners.map((partner) => (
-            <a key={partner.alt} href={partner.link}>
+            <a key={partner.alt} href={partner.link} target="_blank">
               <div className="relative h-[80px] w-[80px]">
                 <Image src={partner.src} alt={partner.alt} layout="fill" />
               </div>
