@@ -103,13 +103,13 @@ export const partners = [
 	link: "https://www.mexc.com/exchange/SOLAMA_USDT"
   },
   {
-    src: "/partners/cyberscope_logo.png",
-    alt: "Cyberscope Partner Logo",
-	link: "https://www.cyberscope.io/audits/solama-spl"
+    src: "/partners/bitrue_logo.png",
+    alt: "Bitrue Partner Logo",
+	link: "https://www.bitrue.com/trade/solama_usdt"
   },
   {
-    src: "/partners/solscan_logo.png",
-    alt: "Solscan Partner Logo",
-	link: "https://solscan.io/token/AVLhahDcDQ4m4vHM4ug63oh7xc8Jtk49Dm5hoe9Sazqr"
+    src: "/partners/coinex_logo.png",
+    alt: "CoinEx Partner Logo",
+	link: "https://www.coinex.com/en/exchange/solama-usdt"
   },
 ];
