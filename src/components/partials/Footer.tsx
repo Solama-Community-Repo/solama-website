@@ -31,11 +31,11 @@ const Footer = () => {
                   </div>
                 </div>
                 <a
-                  href="mailto:contact@solama.vip"
+                  href="mailto:contact@solama.com"
                   className="mt-4 flex items-center justify-center gap-2 transition-colors duration-300 hover:text-secondary xl:justify-end"
                 >
                   <MdMail />
-                  <span className="bold text-[18px] leading-none">contact@solama.vip</span>
+                  <span className="bold text-[18px] leading-none">contact@solama.com</span>
                 </a>
               </div>
             </div>
