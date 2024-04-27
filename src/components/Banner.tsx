@@ -7,7 +7,7 @@ const Banner = () => {
 	return (
 		<div className="h-[40px] w-full flex justify-center items-center bg-secondary">
 			<div>
-				<span className="text-[18px] xl:text-[22px]">BINGX LISTING COUNTDOWN: {isLive ? 'BINGX TRADING IS LIVE!' : `${days}:${hours}:${minutes}:${seconds}`}</span>
+				<span className="text-[18px] xl:text-[22px]">{isLive ? 'BINGX TRADING IS LIVE!' : `BINGX LISTING COUNTDOWN: ${days}:${hours}:${minutes}:${seconds}`}</span>
 			</div>
 		</div>
 	)
