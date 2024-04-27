@@ -83,24 +83,19 @@ export const memes = [
 
 export const partners = [
   {
-    src: "/partners/cmc_logo.png",
-    alt: "Coin Market Cap Partner Logo",
-	link: "https://coinmarketcap.com/currencies/solama/"
-  },
-  {
-    src: "/partners/cg_logo.png",
-    alt: "Coin Gecko Partner Logo",
-	link: "https://www.coingecko.com/en/coins/solama"
-  },
-  {
-    src: "/partners/bitmart_logo.png",
-    alt: "Bitmart Partner Logo",
-	link: "https://www.bitmart.com/trade/en-US?symbol=SOLAMA_USDT"
+    src: "/partners/bingx_logo.png",
+    alt: "BingX Partner Logo",
+	link: "https://bingx.com/en-us/"
   },
   {
     src: "/partners/mexc_logo.png",
     alt: "MEXC Partner Logo",
 	link: "https://www.mexc.com/exchange/SOLAMA_USDT"
+  },
+  {
+    src: "/partners/bitmart_logo.png",
+    alt: "Bitmart Partner Logo",
+	link: "https://www.bitmart.com/trade/en-US?symbol=SOLAMA_USDT"
   },
   {
     src: "/partners/bitrue_logo.png",
@@ -111,5 +106,25 @@ export const partners = [
     src: "/partners/coinex_logo.png",
     alt: "CoinEx Partner Logo",
 	link: "https://www.coinex.com/en/exchange/solama-usdt"
+  },
+  {
+    src: "/partners/cmc_logo.png",
+    alt: "Coin Market Cap Partner Logo",
+	link: "https://coinmarketcap.com/currencies/solama/"
+  },
+  {
+    src: "/partners/cg_logo.png",
+    alt: "Coin Gecko Partner Logo",
+	link: "https://www.coingecko.com/en/coins/solama"
+  },
+  {
+    src: "/partners/cyberscope_logo.png",
+    alt: "Cyberscope Partner Logo",
+	link: "https://www.cyberscope.io/audits/solama-spl"
+  },
+  {
+    src: "/partners/solscan_logo.png",
+    alt: "Solscan Partner Logo",
+	link: "https://solscan.io/token/AVLhahDcDQ4m4vHM4ug63oh7xc8Jtk49Dm5hoe9Sazqr"
   },
 ];
