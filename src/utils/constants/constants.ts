@@ -1,3 +1,132 @@
+export const TeamMembers = [
+	{
+		avatar: "/team/badr.jpeg",
+		name: "Crypto BadrHD",
+		role: "Creator",
+		link: "https://t.me/CryptoBadrHD",
+		isMultisig: true
+	},
+	{
+		avatar: "/team/h.jpeg",
+		name: "H",
+		role: "Marketing",
+		link: "https://t.me/HLSK85",
+		isMultisig: true
+	},
+	{
+		avatar: "/team/aleksandar.jpeg",
+		name: "Aleksandar",
+		role: "Marketing",
+		link: "https://t.me/aleksandar1990",
+		isMultisig: true
+	},
+	{
+		avatar: "/team/dionysus.jpeg",
+		name: "Dionysus",
+		role: "Design",
+		link: "https://t.me/Dionysian_dude",
+		isMultisig: true
+	},
+	{
+		avatar: "/team/skaro.jpeg",
+		name: "Skaro",
+		role: "Developer",
+		link: "https://t.me/skaroeth",
+		isMultisig: true
+	},
+	{
+		avatar: "/team/miguel.jpeg",
+		name: "Miguel",
+		role: "Community",
+		link: "https://t.me/Mlara2",
+		isMultisig: true
+	},
+	{
+		avatar: "/team/souba.jpeg",
+		name: "SouBa",
+		role: "Community",
+		link: "https://t.me/SouBBB",
+		isMultisig: true
+	},
+	{
+		avatar: "/team/rohkyn.jpeg",
+		name: "rohkyN",
+		role: "Marketing",
+		link: "https://t.me/rohkyN",
+		isMultisig: false
+	},
+	{
+		avatar: "/team/digital_dash.jpeg",
+		name: "Digital Dash",
+		role: "Marketing",
+		link: "https://t.me/the_digital_dash",
+		isMultisig: false
+	},
+	{
+		avatar: "/team/pmoney.jpeg",
+		name: "P Money",
+		role: "Marketing",
+		link: "https://t.me/chasingfairydust",
+		isMultisig: false
+	},
+	{
+		avatar: "/team/planet_gong.jpeg",
+		name: "PLANET GONG",
+		role: "Design",
+		link: "https://t.me/Erpland808",
+		isMultisig: false
+	},
+	{
+		avatar: "/team/abc.jpeg",
+		name: "Abc Cba",
+		role: "Developer",
+		link: "https://t.me/axxx019",
+		isMultisig: false
+	},
+	{
+		avatar: "/team/benny.jpeg",
+		name: "Benny",
+		role: "Community",
+		link: "https://t.me/Ben020",
+		isMultisig: false
+	},
+	{
+		avatar: "/team/dan.jpeg",
+		name: "Dan",
+		role: "Community",
+		link: "https://t.me/deanomeano",
+		isMultisig: false
+	},
+	{
+		avatar: "/team/dj.jpeg",
+		name: "D.J.",
+		role: "Community",
+		link: "https://t.me/en_cryptic1",
+		isMultisig: false
+	},
+	{
+		avatar: "/team/rmneto.jpeg",
+		name: "RMNETO",
+		role: "Community",
+		link: "https://t.me/RobertoMNeto",
+		isMultisig: false
+	},
+	{
+		avatar: "/team/sheepman.jpeg",
+		name: "Sheepman",
+		role: "Community",
+		link: "https://t.me/Sheepman23",
+		isMultisig: false
+	},
+	{
+		avatar: "/team/wazghka.jpeg",
+		name: "Wazghka",
+		role: "Community",
+		link: "https://t.me/Wazghka",
+		isMultisig: false
+	},
+];
+
 export const memes = [
   {
     src: "/memes/meme-1.jpg",

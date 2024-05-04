@@ -7,6 +7,7 @@ import Trendz from "./Trendz";
 import Welcome from "./Welcome";
 import Swap from "./Swap";
 import Partners from "./Partners";
+import Team from "./Team";
 
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
 	  <Partners />
       <Swap />
       <Buy />
+	  {/* <Team /> */}
 	  <Meme />
       <Trendz />
       <Game />
