@@ -10,7 +10,7 @@ const roleToColor = {
 };
 
 const TeamAvatar = ({ avatar, name, role, link, isMultisig }) => {
-  const multisigBorder = isMultisig ? "outline outline-4 outline-teal-500" : "";
+  const multisigBorder = isMultisig ? "outline outline-4 outline-yellow-500" : "";
   return (
     <a href={link} target="_blank">
       <div className="flex flex-col items-center">
@@ -33,7 +33,7 @@ const Team = () => {
             <Image src="/wordmarks/team.png" alt="Solama Team" layout="fill" />
           </div>
           <div className="mt-7 flex items-center gap-3">
-            <div className="h-[20px] w-[20px] rounded-sm bg-teal-500" />
+            <div className="h-[20px] w-[20px] rounded-sm bg-yellow-500" />
             <span>Community Wallet Signer</span>
           </div>
         </div>
