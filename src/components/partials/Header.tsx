@@ -37,31 +37,31 @@ const Header = () => {
         <div className="hidden xl:flex xl:flex-wrap 2xl:flex-nowrap">
           <div
             onClick={() => scrollToSection("header")}
-            className="mx-2 whitespace-nowrap rounded-md px-1 py-[2px] transition-colors duration-300 hover:bg-white hover:text-black xl:text-[18px]"
+            className="mx-2 whitespace-nowrap rounded-md px-1 py-[2px] transition-colors duration-300 hover:bg-white hover:text-black xl:text-[18px] cursor-pointer"
           >
             <span>Home</span>
           </div>
           <div
             onClick={() => scrollToSection("about")}
-            className="mx-2 whitespace-nowrap rounded-md px-1 py-[2px] transition-colors duration-300 hover:bg-white hover:text-black xl:text-[18px]"
+            className="mx-2 whitespace-nowrap rounded-md px-1 py-[2px] transition-colors duration-300 hover:bg-white hover:text-black xl:text-[18px] cursor-pointer"
           >
             <span>About</span>
           </div>
           <div
             onClick={() => scrollToSection("tokenomics")}
-            className="mx-2 whitespace-nowrap rounded-md px-1 py-[2px] transition-colors duration-300 hover:bg-white hover:text-black xl:text-[18px]"
+            className="mx-2 whitespace-nowrap rounded-md px-1 py-[2px] transition-colors duration-300 hover:bg-white hover:text-black xl:text-[18px] cursor-pointer"
           >
             <span>Tokenomics</span>
           </div>
           <div
             onClick={() => scrollToSection("swap")}
-            className="mx-2 whitespace-nowrap rounded-md px-1 py-[2px] transition-colors duration-300 hover:bg-white hover:text-black xl:text-[18px]"
+            className="mx-2 whitespace-nowrap rounded-md px-1 py-[2px] transition-colors duration-300 hover:bg-white hover:text-black xl:text-[18px] cursor-pointer"
           >
             <span>Swap</span>
           </div>
           <div
             onClick={() => scrollToSection("team")}
-            className="mx-2 whitespace-nowrap rounded-md px-1 py-[2px] transition-colors duration-300 hover:bg-white hover:text-black xl:text-[18px]"
+            className="mx-2 whitespace-nowrap rounded-md px-1 py-[2px] transition-colors duration-300 hover:bg-white hover:text-black xl:text-[18px] cursor-pointer"
           >
             <span>Team</span>
           </div>
