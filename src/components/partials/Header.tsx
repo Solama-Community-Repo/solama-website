@@ -29,8 +29,8 @@ const Header = () => {
             <div className="relative h-[67px] w-[67px]">
               <Image src="/solama_logo.png" alt="Solama Logo" layout="fill" />
             </div>
-            <div className="relative ml-3 h-[29px] w-[141px]">
-              <Image src="/solama_wordmark_lg.png" alt="Solama Wordmark" layout="fill" />
+            <div className="relative ml-3 h-[30px] w-[130px]">
+              <Image src="/wordmarks/solama.png" alt="Solama Wordmark" layout="fill" />
             </div>
           </div>
         </a>
@@ -59,10 +59,11 @@ const Header = () => {
           >
             <span>Swap</span>
           </div>
-          <div className="mx-2 whitespace-nowrap rounded-md px-1 py-[2px] transition-colors duration-300 hover:bg-white hover:text-black xl:text-[18px]">
-            <a href="https://github.com/Tech-Audit/Smart-Contract-Audits/blob/main/TECHAUDIT_SOLAMA.pdf" target="_blank">
-              Tech Audit
-            </a>
+          <div
+            onClick={() => scrollToSection("team")}
+            className="mx-2 whitespace-nowrap rounded-md px-1 py-[2px] transition-colors duration-300 hover:bg-white hover:text-black xl:text-[18px]"
+          >
+            <span>Team</span>
           </div>
           <div className="mx-2 whitespace-nowrap rounded-md px-1 py-[2px] transition-colors duration-300 hover:bg-white hover:text-black xl:text-[18px]">
             <a href="https://solama.vip/wp-content/uploads/2024/01/SOLAMA-BLACK-PAPER.pdf" target="_blank">

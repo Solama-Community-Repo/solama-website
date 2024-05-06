@@ -6,8 +6,8 @@ const About = () => {
       <div className="relative rounded-xl border-2 border-solid border-secondary shadow-glow">
         <div className="absolute left-0 top-0 -z-10 h-full w-full rounded-xl bg-primary opacity-45" />
         <div className="flex flex-col items-center py-6 text-center">
-          <div className="relative mx-auto h-[35px] w-[315px] xl:h-[59px] xl:w-[560px] ">
-            <Image src="/solama_about.png" alt="Solama About" layout="fill" />
+          <div className="relative mx-auto h-[35px] w-[131px] xl:h-[70px] xl:w-[262px] ">
+            <Image src="/wordmarks/about.png" alt="Solama About" layout="fill" />
           </div>
           <span className="mt-6 p-4">
             SOLAMA, the rising star in the meme coin universe on the SOLANA blockchain. Much like Shiba Inu on Ethereum, SOLAMA brings a

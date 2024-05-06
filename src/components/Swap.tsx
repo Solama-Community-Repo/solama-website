@@ -16,7 +16,7 @@ const Swap = () => {
   }, []);
   return (
     <section id="swap" className="mt-32 flex flex-col justify-between xl:flex-row">
-      <div className="flex flex-col justify-between xl:py-6 xl:w-2/4 text-center xl:text-start">
+      <div className="flex flex-col justify-between xl:py-6 xl:w-2/4 text-center xl:text-start max-h-[447px]">
         <div className="mb-6">
           <h2 className="mb-2">Swap With Jupiter</h2>
           <span className="xl:mt-0 xl:w-3/4">

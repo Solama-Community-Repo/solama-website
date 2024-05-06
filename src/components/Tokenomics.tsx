@@ -11,8 +11,8 @@ const Tokenomics = () => {
   };
   return (
     <section id="tokenomics" className="mt-32">
-      <div className="relative mx-auto h-[46px] w-[335px] xl:h-[78px] xl:w-[560px] ">
-        <Image src="/solama_tokenomics.png" alt="Solama Tokenomics" layout="fill" />
+      <div className="relative mx-auto h-[35px] w-[242px] xl:h-[70px] xl:w-[484px] ">
+        <Image src="/wordmarks/tokenomics.png" alt="Solama Tokenomics" layout="fill" />
       </div>
       <div className="flex flex-col items-center">
         <div className="mt-6 flex justify-between">

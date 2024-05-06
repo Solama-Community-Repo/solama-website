@@ -3,8 +3,8 @@ import Image from "next/image";
 const Buy = () => {
   return (
     <section id="buy" className="mt-32">
-      <div className="relative mx-auto h-[47px] w-[335px] xl:h-[79px] xl:w-[560px] ">
-        <Image src="/solama_buy.png" alt="Solama Buy" layout="fill" />
+      <div className="relative mx-auto h-[35px] w-[241px] xl:h-[70px] xl:w-[482px] ">
+        <Image src="/wordmarks/how_to_buy.png" alt="Solama Buy" layout="fill" />
       </div>
       <div className="shadow-glow relative mt-10 rounded-xl border-2 border-solid border-secondary py-8 text-center xl:flex xl:items-center xl:justify-between xl:px-8 xl:text-start">
         <div className="absolute left-0 top-0 -z-10 h-full w-full rounded-xl bg-primary opacity-45" />

@@ -76,6 +76,20 @@ export const TeamMembers = [
 		link: "https://t.me/Erpland808",
 		isMultisig: false
 	},
+		{
+		avatar: "/team/ju.jpeg",
+		name: "Ju",
+		role: "Design",
+		link: "https://t.me/kbcao01",
+		isMultisig: false
+	},
+	{
+		avatar: "/team/babdel.jpeg",
+		name: "Babdel",
+		role: "Developer",
+		link: "https://t.me/Babdel",
+		isMultisig: false
+	},
 	{
 		avatar: "/team/abc.jpeg",
 		name: "Abc Cba",
@@ -98,6 +112,13 @@ export const TeamMembers = [
 		isMultisig: false
 	},
 	{
+		avatar: "/team/jason.jpeg",
+		name: "Jason",
+		role: "Community",
+		link: "https://t.me/WolfpackWarrior",
+		isMultisig: false
+	},
+	{
 		avatar: "/team/dj.jpeg",
 		name: "D.J.",
 		role: "Community",
@@ -112,6 +133,13 @@ export const TeamMembers = [
 		isMultisig: false
 	},
 	{
+		avatar: "/team/skyguy.jpeg",
+		name: "Sky Guy",
+		role: "Community",
+		link: "https://t.me/SkyGuy000",
+		isMultisig: false
+	},
+	{
 		avatar: "/team/sheepman.jpeg",
 		name: "Sheepman",
 		role: "Community",
@@ -119,10 +147,24 @@ export const TeamMembers = [
 		isMultisig: false
 	},
 	{
+		avatar: "/team/antwan.jpeg",
+		name: "Antwan",
+		role: "Community",
+		link: "https://t.me/",
+		isMultisig: false
+	},
+	{
 		avatar: "/team/wazghka.jpeg",
 		name: "Wazghka",
 		role: "Community",
 		link: "https://t.me/Wazghka",
+		isMultisig: false
+	},
+	{
+		avatar: "/team/reverofAnalos.jpeg",
+		name: "ReverofAnalos",
+		role: "Community",
+		link: "https://t.me/ReverofAnalos",
 		isMultisig: false
 	},
 ];
@@ -214,7 +256,7 @@ export const partners = [
   {
     src: "/partners/bingx_logo.png",
     alt: "BingX Partner Logo",
-	link: "https://bingx.com/en-us/"
+	link: "https://bingx.com/en-us/spot/SOLAMAUSDT/"
   },
   {
     src: "/partners/mexc_logo.png",

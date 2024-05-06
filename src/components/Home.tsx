@@ -19,7 +19,7 @@ const Home = () => {
 	  <Partners />
       <Swap />
       <Buy />
-	  {/* <Team /> */}
+	  <Team />
 	  <Meme />
       <Trendz />
       <Game />

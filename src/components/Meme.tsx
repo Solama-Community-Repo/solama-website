@@ -5,8 +5,8 @@ import Marquee from "react-fast-marquee";
 const Meme = () => {
   return (
     <section id="meme" className="mt-32">
-      <div className="relative mx-auto h-[35px] w-[335px] xl:h-[59px] xl:w-[560px] ">
-        <Image src="/solama_meme.png" alt="Solama Meme" layout="fill" />
+      <div className="relative mx-auto h-[35px] w-[127px] xl:h-[70px] xl:w-[254px] ">
+        <Image src="/wordmarks/memes.png" alt="Solama Memes" layout="fill" />
       </div>
       <div className="mt-10">
         <Marquee pauseOnHover speed={150}>

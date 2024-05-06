@@ -3,8 +3,8 @@ import Image from "next/image";
 const Trendz = () => {
   return (
     <section id="trendz" className="mt-32">
-      <div className="relative mx-auto h-[35px] w-[335px] xl:h-[59px] xl:w-[560px] ">
-        <Image src="/solama_trendz.png" alt="Solama Trendz" layout="fill" />
+      <div className="relative mx-auto h-[35px] w-[129px] xl:h-[70px] xl:w-[258px] ">
+        <Image src="/wordmarks/merch.png" alt="Solama Trendz" layout="fill" />
       </div>
       <div className="mt-5 flex flex-col xl:flex-row">
         <div className="flex flex-col justify-between w-full items-center text-center xl:flex-row">
