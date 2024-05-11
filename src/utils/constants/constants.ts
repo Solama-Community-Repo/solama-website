@@ -1,12 +1,5 @@
 export const TeamMembers = [
 	{
-		avatar: "/team/badr.jpeg",
-		name: "Crypto BadrHD",
-		role: "Creator",
-		link: "https://t.me/CryptoBadrHD",
-		isMultisig: true
-	},
-	{
 		avatar: "/team/h.jpeg",
 		name: "H",
 		role: "Marketing",
@@ -18,6 +11,13 @@ export const TeamMembers = [
 		name: "Aleksandar",
 		role: "Marketing",
 		link: "https://t.me/aleksandar1990",
+		isMultisig: true
+	},
+	{
+		avatar: "/team/rohkyn.jpeg",
+		name: "rohkyN",
+		role: "Marketing",
+		link: "https://t.me/rohkyN",
 		isMultisig: true
 	},
 	{
@@ -49,13 +49,6 @@ export const TeamMembers = [
 		isMultisig: true
 	},
 	{
-		avatar: "/team/rohkyn.jpeg",
-		name: "rohkyN",
-		role: "Marketing",
-		link: "https://t.me/rohkyN",
-		isMultisig: false
-	},
-	{
 		avatar: "/team/digital_dash.jpeg",
 		name: "Digital Dash",
 		role: "Marketing",
@@ -81,6 +74,13 @@ export const TeamMembers = [
 		name: "Ju",
 		role: "Design",
 		link: "https://t.me/kbcao01",
+		isMultisig: false
+	},
+	{
+		avatar: "/team/nzooz.webp",
+		name: "Nzooz",
+		role: "Design",
+		link: "https://t.me/moonloop",
 		isMultisig: false
 	},
 	{
@@ -147,13 +147,6 @@ export const TeamMembers = [
 		isMultisig: false
 	},
 	{
-		avatar: "/team/antwan.jpeg",
-		name: "Antwan",
-		role: "Community",
-		link: "https://t.me/",
-		isMultisig: false
-	},
-	{
 		avatar: "/team/wazghka.jpeg",
 		name: "Wazghka",
 		role: "Community",
@@ -167,6 +160,13 @@ export const TeamMembers = [
 		link: "https://t.me/ReverofAnalos",
 		isMultisig: false
 	},
+	{
+		avatar: "/team/levan.jpeg",
+		name: "Levan",
+		role: "Community",
+		link: "https://t.me/Kaille_Crypto",
+		isMultisig: false
+	}
 ];
 
 export const memes = [
@@ -256,46 +256,37 @@ export const partners = [
   {
     src: "/partners/bingx_logo.png",
     alt: "BingX Partner Logo",
-	link: "https://bingx.com/en-us/spot/SOLAMAUSDT/"
+	link: "https://bingx.com/en-us/spot/SOLAMAUSDT/",
+	name: "BingX"
   },
   {
     src: "/partners/mexc_logo.png",
     alt: "MEXC Partner Logo",
-	link: "https://www.mexc.com/exchange/SOLAMA_USDT"
+	link: "https://www.mexc.com/exchange/SOLAMA_USDT",
+	name: "MEXC"
   },
   {
     src: "/partners/bitmart_logo.png",
     alt: "Bitmart Partner Logo",
-	link: "https://www.bitmart.com/trade/en-US?symbol=SOLAMA_USDT"
+	link: "https://www.bitmart.com/trade/en-US?symbol=SOLAMA_USDT",
+	name: "Bitmart"
+  },
+  {
+    src: "/partners/assetdash.png",
+    alt: "Assetdash Partner Logo",
+	link: "https://swap.assetdash.com/",
+	name: "Assetdash"
   },
   {
     src: "/partners/bitrue_logo.png",
     alt: "Bitrue Partner Logo",
-	link: "https://www.bitrue.com/trade/solama_usdt"
+	link: "https://www.bitrue.com/trade/solama_usdt",
+	name: "Bitrue"
   },
   {
     src: "/partners/coinex_logo.png",
     alt: "CoinEx Partner Logo",
-	link: "https://www.coinex.com/en/exchange/solama-usdt"
-  },
-  {
-    src: "/partners/cmc_logo.png",
-    alt: "Coin Market Cap Partner Logo",
-	link: "https://coinmarketcap.com/currencies/solama/"
-  },
-  {
-    src: "/partners/cg_logo.png",
-    alt: "Coin Gecko Partner Logo",
-	link: "https://www.coingecko.com/en/coins/solama"
-  },
-  {
-    src: "/partners/cyberscope_logo.png",
-    alt: "Cyberscope Partner Logo",
-	link: "https://www.cyberscope.io/audits/solama-spl"
-  },
-  {
-    src: "/partners/solscan_logo.png",
-    alt: "Solscan Partner Logo",
-	link: "https://solscan.io/token/AVLhahDcDQ4m4vHM4ug63oh7xc8Jtk49Dm5hoe9Sazqr"
+	link: "https://www.coinex.com/en/exchange/solama-usdt",
+	name: "CoinEx"
   },
 ];

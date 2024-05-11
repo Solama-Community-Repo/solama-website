@@ -15,7 +15,7 @@ const Game = () => {
             >
               <span className="text-[15px] font-bold text-primary group-hover:text-hover-secondary xl:text-[22px]">PLAY NOW</span>
             </button>
-            <div className="mt-5">
+            <div className="mt-5 xl:px-20">
               You can play the Solama Game on PC and any mobile, but we will have the game on Play Store and App Store soon for a better
               experience.
             </div>
