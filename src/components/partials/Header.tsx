@@ -66,11 +66,6 @@ const Header = () => {
             <span>Team</span>
           </div>
           <div className="mx-2 whitespace-nowrap rounded-md px-1 py-[2px] transition-colors duration-300 hover:bg-white hover:text-black xl:text-[18px]">
-            <a href="https://solama.vip/wp-content/uploads/2024/01/SOLAMA-BLACK-PAPER.pdf" target="_blank">
-              Black Paper
-            </a>
-          </div>
-          <div className="mx-2 whitespace-nowrap rounded-md px-1 py-[2px] transition-colors duration-300 hover:bg-white hover:text-black xl:text-[18px]">
             <a href="https://solamatrendz.com/">Merch</a>
           </div>
           <div className="mx-2 whitespace-nowrap rounded-md px-1 py-[2px] transition-colors duration-300 hover:bg-white hover:text-black xl:text-[18px]">
