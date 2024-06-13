@@ -1,5 +1,12 @@
 # Solama Community Website
-Updates to Memes, Partners and Team Members can be made in:
+Before updating Memes, Partners or Team Members the images will need to be added to:
+```
+public/memes
+public/partners
+public/team
+```
+
+Links and or names to the newly added Memes, Partners or Team Members can updated in:
 ```
 src/utils/constants/constants.ts
 ```
