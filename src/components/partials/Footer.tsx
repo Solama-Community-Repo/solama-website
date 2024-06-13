@@ -20,10 +20,10 @@ const Footer = () => {
                   <div onClick={() => window.open("https://twitter.com/SolamaSPL", "_blank")} className="hover:cursor-pointer hover:scale-110 transition-transform duration-300 group rounded-md border-4 border-solid border-secondary bg-white p-[6px]">
                     <FaTwitter fill="#000" className="xl:h-6 xl:w-6 group-hover:fill-secondary transition-colors duration-300" />
                   </div>
-                  <div onClick={() => window.open("https://www.youtube.com/@SolamaSPL", "_blank")} className="hover:cursor-pointer hover:scale-110 transition-transform duration-300 group rounded-md border-4 border-solid border-secondary bg-white p-[6px]">
+                  <div onClick={() => window.open("https://www.youtube.com/@SolamaOfficial", "_blank")} className="hover:cursor-pointer hover:scale-110 transition-transform duration-300 group rounded-md border-4 border-solid border-secondary bg-white p-[6px]">
                     <FaYoutube fill="#000" className="xl:h-6 xl:w-6 group-hover:fill-secondary transition-colors duration-300" />
                   </div>
-                  <div onClick={() => window.open("https://www.tiktok.com/@solamaspl", "_blank")} className="hover:cursor-pointer hover:scale-110 transition-transform duration-300 group rounded-md border-4 border-solid border-secondary bg-white p-[6px]">
+                  <div onClick={() => window.open("https://www.tiktok.com/@solamaofficial", "_blank")} className="hover:cursor-pointer hover:scale-110 transition-transform duration-300 group rounded-md border-4 border-solid border-secondary bg-white p-[6px]">
                     <FaTiktok fill="#000" className="xl:h-6 xl:w-6 group-hover:fill-secondary transition-colors duration-300" />
                   </div>
                   <div onClick={() => window.open("https://www.instagram.com/SolamaSPL/", "_blank")} className="hover:cursor-pointer hover:scale-110 transition-transform duration-300 group rounded-md border-4 border-solid border-secondary bg-white p-[6px]">
