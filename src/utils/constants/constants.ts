@@ -291,7 +291,7 @@ export const memes = [
     alt: "Solama Meme #20",
   },
 	 {
-    src: "/memes/meme31.PNG",
+    src: "/memes/meme31.png",
     alt: "Solama Meme #20",
   },
 	 {
