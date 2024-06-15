@@ -175,111 +175,111 @@ export const memes = [
     alt: "Solama Meme #1",
   },
   {
-    src: "/memes/meme2.png",
+    src: "/memes/meme2.PNG",
     alt: "Solama Meme #2",
   },
   {
-    src: "/memes/meme3.png",
+    src: "/memes/meme3.PNG",
     alt: "Solama Meme #3",
   },
   {
-    src: "/memes/meme4.png",
+    src: "/memes/meme4.PNG",
     alt: "Solama Meme #4",
   },
   {
-    src: "/memes/meme5.png",
+    src: "/memes/meme5.PNG",
     alt: "Solama Meme #5",
   },
   {
-    src: "/memes/meme6.png",
+    src: "/memes/meme6.PNG",
     alt: "Solama Meme #6",
   },
   {
-    src: "/memes/meme7.png",
+    src: "/memes/meme7.PNG",
     alt: "Solama Meme #7",
   },
   {
-    src: "/memes/meme8.png",
+    src: "/memes/meme8.PNG",
     alt: "Solama Meme #8",
   },
   {
-    src: "/memes/meme9.png",
+    src: "/memes/meme9.PNG",
     alt: "Solama Meme #9",
   },
   {
-    src: "/memes/meme10.png",
+    src: "/memes/meme10.PNG",
     alt: "Solama Meme #10",
   },
   {
-    src: "/memes/meme11.png",
+    src: "/memes/meme11.PNG",
     alt: "Solama Meme #11",
   },
   {
-    src: "/memes/meme12.png",
+    src: "/memes/meme12.PNG",
     alt: "Solama Meme #12",
   },
   {
-    src: "/memes/meme13.png",
+    src: "/memes/meme13.PNG",
     alt: "Solama Meme #13",
   },
   {
-    src: "/memes/meme14.png",
+    src: "/memes/meme14.PNG",
     alt: "Solama Meme #14",
   },
   {
-    src: "/memes/meme15.png",
+    src: "/memes/meme15.PNG",
     alt: "Solama Meme #15",
   },
   {
-    src: "/memes/meme16.png",
+    src: "/memes/meme16.PNG",
     alt: "Solama Meme #16",
   },
   {
-    src: "/memes/meme17.png",
+    src: "/memes/meme17.PNG",
     alt: "Solama Meme #17",
   },
   {
-    src: "/memes/meme18.png",
+    src: "/memes/meme18.PNG",
     alt: "Solama Meme #18",
   },
   {
-    src: "/memes/meme19.png",
+    src: "/memes/meme19.PNG",
     alt: "Solama Meme #19",
   },
   {
-    src: "/memes/meme20.png",
+    src: "/memes/meme20.PNG",
     alt: "Solama Meme #20",
   },
   {
-    src: "/memes/meme21.png",
+    src: "/memes/meme21.PNG",
     alt: "Solama Meme #20",
   },
  {
-    src: "/memes/meme22.png",
+    src: "/memes/meme22.PNG",
     alt: "Solama Meme #20",
   },
 	 {
-    src: "/memes/meme23.png",
+    src: "/memes/meme23.PNG",
     alt: "Solama Meme #20",
   },
 	 {
-    src: "/memes/meme24.png",
+    src: "/memes/meme24.PNG",
     alt: "Solama Meme #20",
   },
 	 {
-    src: "/memes/meme25.png",
+    src: "/memes/meme25.PNG",
     alt: "Solama Meme #20",
   },
 	 {
-    src: "/memes/meme26.png",
+    src: "/memes/meme26.PNG",
     alt: "Solama Meme #20",
   },
 	 {
-    src: "/memes/meme27.png",
+    src: "/memes/meme27.PNG",
     alt: "Solama Meme #20",
   },
 	 {
-    src: "/memes/meme28.png",
+    src: "/memes/meme28.PNG",
     alt: "Solama Meme #20",
   },
 	 {
@@ -291,27 +291,27 @@ export const memes = [
     alt: "Solama Meme #20",
   },
 	 {
-    src: "/memes/meme31.png",
+    src: "/memes/meme31.PNG",
     alt: "Solama Meme #20",
   },
 	 {
-    src: "/memes/meme32.png",
+    src: "/memes/meme32.PNG",
     alt: "Solama Meme #20",
   },
 	 {
-    src: "/memes/meme33.png",
+    src: "/memes/meme33.PNG",
     alt: "Solama Meme #20",
   },
 	 {
-    src: "/memes/meme34.png",
+    src: "/memes/meme34.PNG",
     alt: "Solama Meme #20",
   },
 	 {
-    src: "/memes/meme35.png",
+    src: "/memes/meme35.PNG",
     alt: "Solama Meme #20",
   },
 	 {
-    src: "/memes/meme36.png",
+    src: "/memes/meme36.PNG",
     alt: "Solama Meme #20",
   },
 ];
