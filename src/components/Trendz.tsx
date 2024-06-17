@@ -16,7 +16,7 @@ const Trendz = () => {
               <span className="text-[15px] font-bold text-primary group-hover:text-hover-secondary xl:text-[22px]">Solama Merch</span>
             </button>
             <div className="mt-5 xl:px-20">
-              Holders that hold a certain amount of $SOLAMA will receive a profit share. For more info see the BLACK PAPER.
+              Buy some merch and support $SOLAMA project.
             </div>
           </div>
           <div className="xl:flex xl:justify-end">
