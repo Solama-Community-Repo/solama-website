@@ -30,7 +30,7 @@ const Welcome = () => {
           <div className="mt-3 flex justify-between xl:w-[80%] xl:gap-10">
             <button
               onClick={() => window.open("https://x.com/SolamaSPL", "_blank")}
-              className="group w-[145px] rounded-full border-4 border-solid border-black bg-white py-1 shadow-red transition-transform duration-300 hover:scale-110 hover:border-hover-primary xl:w-[205px]"
+              className="group w-[145px] rounded-full border-4 border-solid border-black bg-white py-1 shadow-green transition-transform duration-300 hover:scale-110 hover:border-hover-primary xl:w-[205px]"
             >
               <span className="text-[15px] font-bold text-primary group-hover:text-hover-primary xl:text-[22px]">Twitter</span>
             </button>
@@ -41,7 +41,7 @@ const Welcome = () => {
                   "_blank",
                 )
               }
-              className="group w-[145px] rounded-full border-4 border-solid border-black bg-white py-1 shadow-yellow transition-transform duration-300 hover:scale-110 hover:border-hover-secondary xl:w-[205px]"
+              className="group w-[145px] rounded-full border-4 border-solid border-black bg-white py-1 shadow-purple transition-transform duration-300 hover:scale-110 hover:border-hover-secondary xl:w-[205px]"
             >
               <span className="text-[15px] font-bold text-primary group-hover:text-hover-secondary xl:text-[22px]">Telegram</span>
             </button>
