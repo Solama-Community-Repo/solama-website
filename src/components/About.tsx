@@ -10,22 +10,22 @@ const About = () => {
             <Image src="/wordmarks/about.png" alt="Solama About" layout="fill" />
           </div>
           <span className="mt-6 p-4">
-            SOLAMA, the rising star in the meme coin universe on the SOLANA blockchain. Much like Shiba Inu on Ethereum, SOLAMA brings a
-            playful twist with its lama-themed charm. Embrace the whimsical world of SOLAMA, where crypto meets humor, and join the journey
-            toward the next big meme coin sensation on SOLANA.
+            $SOLAMA - The Official "Unofficial" Mascot of Solana 🟣🦙.
+
+            Community run project with utilities focused on rewarding community or generating funds with 100% revenue going back to the project.
           </span>
           <div className="flex flex-col xl:flex-row xl:gap-6">
             <button
-              onClick={() => window.open("https://github.com/Tech-Audit/Smart-Contract-Audits/blob/main/TECHAUDIT_SOLAMA.pdf", "_blank")}
+              onClick={() => window.open("https://x.com/SolamaSPL", "_blank")}
               className="group mt-5 w-[145px] rounded-full border-4 border-solid border-black bg-white py-1 shadow-purple transition-transform duration-300 hover:scale-110 hover:border-hover-secondary xl:w-[205px]"
             >
-              <span className="text-[15px] font-bold text-primary group-hover:text-hover-secondary xl:text-[22px]">Tech Audit</span>
+              <span className="text-[15px] font-bold text-primary group-hover:text-hover-secondary xl:text-[22px]">Twitter</span>
             </button>
             <button
-              onClick={() => window.open("https://www.cyberscope.io/audits/solama-spl", "_blank")}
+              onClick={() => window.open("https://t.me/SolamaOfficial", "_blank")}
               className="group mt-5 w-[145px] rounded-full border-4 border-solid border-black bg-white py-1 shadow-purple transition-transform duration-300 hover:scale-110 hover:border-hover-secondary xl:w-[205px]"
             >
-              <span className="text-[15px] font-bold text-primary group-hover:text-hover-secondary xl:text-[22px]">Cyberscope</span>
+              <span className="text-[15px] font-bold text-primary group-hover:text-hover-secondary xl:text-[22px]">Telegram</span>
             </button>
           </div>
         </div>
