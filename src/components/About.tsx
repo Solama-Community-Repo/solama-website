@@ -11,9 +11,7 @@ const About = () => {
           </div>
           <span className="mt-6 p-4">
             $SOLAMA - The Official "Unofficial" Mascot of Solana 🟣🦙.
-            
-            
-            Community run project with utilities focused on rewarding community or generating funds with 100% revenue going back to the project.
+             <p>Community run project with utilities focused on rewarding community or generating funds with 100% revenue going back to the project.</p>
           </span>
           <div className="flex flex-col xl:flex-row xl:gap-6">
             <button
