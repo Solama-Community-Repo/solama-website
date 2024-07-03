@@ -105,13 +105,6 @@ export const TeamMembers = [
 		isMultisig: false
 	},
 	{
-		avatar: "/team/dan.jpeg",
-		name: "Dan",
-		role: "Community",
-		link: "https://t.me/deanomeano",
-		isMultisig: false
-	},
-	{
 		avatar: "/team/jason.jpeg",
 		name: "Jason",
 		role: "Community",
