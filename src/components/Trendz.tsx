@@ -1,5 +1,3 @@
-export default Trendz;
-
 import Image from "next/image";
 
 const Trendz = () => {
