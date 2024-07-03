@@ -2,13 +2,13 @@ import Image from "next/image";
 
 const Trendz = () => {
   return (
-    <a class="twitter-timeline" href="https://x.com/SolamaSPL">Tweets by XDevelopers</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     <section id="trendz" className="mt-32">
       <div className="relative mx-auto h-[35px] w-[129px] xl:h-[70px] xl:w-[258px] ">
         <Image src="/wordmarks/merch.png" alt="Solama Trendz" layout="fill" />
       </div>
       <div className="mt-5 flex flex-col xl:flex-row">
         <div className="flex flex-col justify-between w-full items-center text-center xl:flex-row">
+              <a class="twitter-timeline" href="https://x.com/SolamaSPL">Tweets by XDevelopers</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
           <div className="xl:w-2/3 xl:p-5">
             <button
               onClick={() => window.open("https://solamatrendz.com/", "_blank")}
