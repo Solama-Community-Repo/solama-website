@@ -42,15 +42,6 @@ const Team = () => {
             <TeamAvatar key={member.name} {...member} />
           ))}
         </div>
-        <div className="mt-10 flex flex-col items-center">
-          <h2>Want To Join The Team?</h2>
-          <button
-            onClick={() => window.open("https://forms.gle/iLRSDVWjCBCUwB1t6", "_blank")}
-            className="group mt-5 w-[145px] rounded-full border-4 border-solid border-black bg-white py-1 shadow-purple transition-transform duration-300 hover:scale-110 hover:border-hover-secondary xl:w-[205px]"
-          >
-            <span className="text-[15px] font-bold text-primary group-hover:text-hover-secondary xl:text-[22px]">Apply Here</span>
-          </button>
-        </div>
       </div>
     </div>
   );

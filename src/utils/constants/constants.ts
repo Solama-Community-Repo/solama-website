@@ -42,10 +42,10 @@ export const TeamMembers = [
 		isMultisig: true
 	},
 	{
-		avatar: "/team/souba.jpeg",
-		name: "SouBa",
-		role: "Community",
-		link: "https://t.me/SouBBB",
+		avatar: "/team/nzooz.webp",
+		name: "Nzooz",
+		role: "Design",
+		link: "https://t.me/moonloop",
 		isMultisig: true
 	},
 	{
@@ -77,13 +77,6 @@ export const TeamMembers = [
 		isMultisig: false
 	},
 	{
-		avatar: "/team/nzooz.webp",
-		name: "Nzooz",
-		role: "Design",
-		link: "https://t.me/moonloop",
-		isMultisig: false
-	},
-	{
 		avatar: "/team/babdel.jpeg",
 		name: "Babdel",
 		role: "Developer",
@@ -112,13 +105,6 @@ export const TeamMembers = [
 		isMultisig: false
 	},
 	{
-		avatar: "/team/dj.jpeg",
-		name: "D.J.",
-		role: "Community",
-		link: "https://t.me/en_cryptic1",
-		isMultisig: false
-	},
-	{
 		avatar: "/team/rmneto.jpeg",
 		name: "RMNETO",
 		role: "Community",
@@ -144,13 +130,6 @@ export const TeamMembers = [
 		name: "Wazghka",
 		role: "Community",
 		link: "https://t.me/Wazghka",
-		isMultisig: false
-	},
-	{
-		avatar: "/team/reverofAnalos.jpeg",
-		name: "ReverofAnalos",
-		role: "Community",
-		link: "https://t.me/ReverofAnalos",
 		isMultisig: false
 	},
 	{

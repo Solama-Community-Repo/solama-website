@@ -38,7 +38,7 @@ const Tokenomics = () => {
         </div>
         <div className="shadow-glow relative flex items-center justify-center rounded-xl border-2 border-solid border-secondary p-8">
           <div className="absolute left-0 top-0 -z-10 h-full w-full rounded-xl bg-primary opacity-45" />
-          <div>0% Tax & sell tax</div>
+          <div>0% Buy & sell tax</div>
         </div>
         <div className="shadow-glow relative flex items-center justify-center rounded-xl border-2 border-solid border-secondary p-8">
           <div className="absolute left-0 top-0 -z-10 h-full w-full rounded-xl bg-primary opacity-45" />
