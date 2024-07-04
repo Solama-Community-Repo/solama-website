@@ -3,7 +3,7 @@ import Buy from "./Buy";
 import Game from "./Game";
 import Meme from "./Meme";
 import Tokenomics from "./Tokenomics";
-import Task Bot from "./Task Bot";
+import TaskBot from "./TaskBot";
 import Welcome from "./Welcome";
 import Swap from "./Swap";
 import Partners from "./Partners";
@@ -21,7 +21,7 @@ const Home = () => {
       <Buy />
 	  <Team />
 	  <Meme />
-      <Task Bot />
+      <TaskBot />
      
     </div>
   );
