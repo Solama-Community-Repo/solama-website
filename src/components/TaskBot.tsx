@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const TaskBot = () => {
   return (
-    <section id="Task Bot" className="mt-32">
+    <section id="TaskBot" className="mt-32">
       <div className="relative mx-auto h-[35px] w-[129px] xl:h-[70px] xl:w-[258px] ">
         <Image src="/wordmarks/Task.png" alt="Task bot" layout="fill" />
       </div>
