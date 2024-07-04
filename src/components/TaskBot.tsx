@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const Task Bot = () => {
+const TaskBot = () => {
   return (
     <section id="Task Bot" className="mt-32">
       <div className="relative mx-auto h-[35px] w-[129px] xl:h-[70px] xl:w-[258px] ">
@@ -32,4 +32,4 @@ const Task Bot = () => {
   );
 };
 
-export default Task Bot;
+export default TaskBot;
