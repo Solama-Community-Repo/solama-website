@@ -2,13 +2,6 @@ import Image from "next/image";
 import { useEffect } from "react";
 
 const Game = () => {
-  useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "https://platform.twitter.com/widgets.js";
-    script.async = true;
-    script.charset = "utf-8";
-    document.body.appendChild(script);
-  }, []);
   return (
     <section id="game" className="mt-32">
       <div className="relative mx-auto h-[35px] w-[106px] xl:h-[70px] xl:w-[212px] ">
@@ -26,10 +19,6 @@ const Game = () => {
             <div className="mt-5 xl:px-20">
               You can play the Solama Game on PC and any mobile, but we will have the game on Play Store and App Store soon for a better
               experience.
-            </div>
-            {/* Twitter timeline */}
-            <div className="mt-5 xl:px-20">
-              <a className="twitter-timeline" href="https://x.com/SolamaSPL">Tweets by Solama</a>
             </div>
           </div>
           <div className="xl:flex xl:justify-end">
