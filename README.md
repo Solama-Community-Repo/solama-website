@@ -25,3 +25,13 @@ When updating the Header links you will also need to update the mobile menu link
 ```
 src/components/MobileNav.tsx
 ```
+
+Steps to update website from vscode:
+1. Make change in file and CTRL+S
+2. use `npm run dev` to preview changes
+3. once changes look good run these git commands
+```
+git add .
+git commit -m "description of changes"
+git push origin main
+```
