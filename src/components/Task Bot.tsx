@@ -1,8 +1,8 @@
 import Image from "next/image";
 
-const Trendz = () => {
+const Task Bot = () => {
   return (
-    <section id="trendz" className="mt-32">
+    <section id="Task Bot" className="mt-32">
       <div className="relative mx-auto h-[35px] w-[129px] xl:h-[70px] xl:w-[258px] ">
         <Image src="/wordmarks/Task.png" alt="Task bot" layout="fill" />
       </div>
@@ -32,4 +32,4 @@ const Trendz = () => {
   );
 };
 
-export default Trendz;
+export default Task Bot;
