@@ -15,8 +15,8 @@ const Buy = () => {
           <div className="flex flex-col px-4 text-center xl:px-10">
             <h2 className="mb-3 xl:mb-0">Create a Wallet</h2>
             <div>
-              Download Phantom or your wallet of choice from the app store or google play store for free. Desktop users, download the google
-              chrome extension by going to phantom.app.
+            Download Phantom or your preferred wallet from the App Store or Google Play Store for free.
+            If you're on a desktop, download the Google Chrome extension from <a href="https://phantom.app">phantom.app</a>
             </div>
           </div>
         </div>

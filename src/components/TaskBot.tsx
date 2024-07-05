@@ -13,7 +13,7 @@ const TaskBot = () => {
               onClick={() => window.open("https://t.me/SolamaTaskBot", "_blank")}
               className="group mt-5 w-[145px] rounded-full border-4 border-solid border-black bg-white py-1 shadow-purple transition-transform duration-300 hover:scale-110 hover:border-hover-secondary xl:w-[205px]"
             >
-              <span className="text-[15px] font-bold text-primary group-hover:text-hover-secondary xl:text-[22px]">Solama Task Bot</span>
+              <span className="text-[15px] font-bold text-primary group-hover:text-hover-secondary xl:text-[22px]">Try it!</span>
             </button>
             <div className="mt-5 xl:px-20">
               Earn $SOLAMA with our new own telegram bot.
