@@ -325,4 +325,10 @@ export const partners = [
 	link: "https://www.coinex.com/en/exchange/solama-usdt",
 	name: "CoinEx"
   },
+  {
+    src: "/partners/xtcom.png",
+    alt: "XT.com Partner Logo",
+	link: "https://www.xt.com/en/trade/solama_usdt",
+	name: "XT"
+  },
 ];
