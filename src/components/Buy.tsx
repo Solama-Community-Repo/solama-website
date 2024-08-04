@@ -30,8 +30,8 @@ const Buy = () => {
           <div className="flex flex-col px-4 text-center xl:px-10">
             <h2 className="mb-3 xl:mb-0">Get Some SOL</h2>
             <div>
-              Have SOL in your wallet to switch to $SOLAMA. If you don’t have any SOL, you can buy SOL from an exchange or cross chain swap
-              and send it to your wallet.
+            Ensure you have SOL in your wallet to trade for $SOLAMA.
+            If you don't have SOL, you can buy some from an exchange or use a cross-chain swap service and send it to your wallet.
             </div>
           </div>
         </div>
@@ -45,9 +45,11 @@ const Buy = () => {
           <div className="flex flex-col px-2 text-center">
             <h2 className="mb-3 xl:mb-0">Go to Raydium, Jupiter..</h2>
             <div className="px-4 xl:px-0">
-              Connect to Raydium or Jupiter. Go raydium.io or jup.ag in google chrome or on the browser inside your Phantom app. Connect
-              your wallet. Paste the $SOLAMA token address into Raydium or Jupiter and confirm the swap. When Phantom prompts you for a
-              wallet signature, sign.
+            Visit <a href="https://raydium.io">raydium.io</a> or <a href="https://jup.ag">jup.ag</a> in Google Chrome or within the browser in your Phantom app.
+            Connect your wallet to Raydium or Jupiter.
+Paste the $SOLAMA token address into Raydium or Jupiter, then confirm the swap.
+When Phantom prompts you for a wallet signature, go ahead and sign.
+
             </div>
           </div>
         </div>
@@ -59,10 +61,9 @@ const Buy = () => {
             <Image src="/solama_logo.png" alt="Phantom Wallet Logo" width={140} height={128} />
           </div>
           <div className="px6 flex flex-col text-center">
-            <h2 className="mb-3 xl:mb-0">Switch SOL for SOLAMA</h2>
+            <h2 className="mb-3 xl:mb-0">Switch SOL for $SOLAMA</h2>
             <div className="px-4 xl:px-0">
-              Switch SOL for $SOLAMA. We have ZERO taxes so you don’t need to worry about buying with a specific slippage, although you may
-              need to use slippage during times of market volatility.
+              Switch SOL for $SOLAMA. There are ZERO taxes on this swap, so you don't need to worry about specific slippage. However, you might need to use slippage during periods of market volatility.
             </div>
           </div>
         </div>
