@@ -7,7 +7,7 @@ const Welcome = () => {
         <div>
           <h2 className="mb-3 pl-2">Welcome To</h2>
           <Image src="/wordmarks/solama.png" alt="Solama Wordmark" height={100} width={433} />
-          <h4 className="mt-1 pl-2 text-center xl:text-start">Solama the Official 'Unofficial' Solana Mascot</h4>
+          <h4 className="mt-1 pl-2 text-center xl:text-start">The Official 'Unofficial' Mascot of Solana</h4>
           <div className="mt-3 flex justify-between xl:w-[80%] xl:gap-10">
             <button
               onClick={() => window.open("https://jup.ag/swap/SOL-SOLAMA", "_blank")}
